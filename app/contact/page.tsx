@@ -33,7 +33,7 @@ const ContactPage = () => {
             href="mailto:jakob@jakobdahlin.com?subject=Contact%20Jakob%20Dahlin&body=Hi%20Jakob,"
             className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
           >
-            Email
+            Reach Out
           </a>
         </div>
       </div>

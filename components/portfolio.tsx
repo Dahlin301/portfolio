@@ -25,6 +25,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Link from "next/link"
 import React from "react"
+import Image from 'next/image';
 
 const portfolio = () => {
   return (
@@ -78,7 +79,7 @@ const portfolio = () => {
                   </Link>
                 </div>
               </div>
-              <img
+              <Image
                 src="/placeholder.svg"
                 width="600"
                 height="400"

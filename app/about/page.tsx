@@ -16,13 +16,13 @@ const Portfolio = () => {
     <div className="container mx-auto max-w-[800px] px-4 py-4 md:px-6 lg:py-8">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         <div className="flex justify-center">
-          <img
-            src="/Jakob.jpg"
-            alt="Profile Picture"
-            width={300}
-            height={300}
-            className="aspect-square rounded-full object-cover"
-          />
+        <Image
+  src="/Jakob.jpg"
+  alt="Profile Picture"
+  width={300}
+  height={300}
+  className="aspect-square rounded-full object-cover"
+/>
         </div>
         <div className="space-y-4">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">Jakob Dahlin</h1>

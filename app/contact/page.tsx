@@ -10,20 +10,21 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import Image from "next/image";
 
 export default function ContactPage() {
   return (
     <div className="flex justify-center items-center h-screen bg-background">
       <Card className="w-full max-w-md p-6 space-y-4 md:max-w-lg lg:max-w-xl">
         <div className="flex items-center gap-4">
-          <img
-            src="/JD_ID.jpg"
-            width={48}
-            height={48}
-            alt="Logo"
-            className="rounded-full"
-            style={{ aspectRatio: '48/48', objectFit: 'cover' }}
-          />
+        <Image
+  src="/JD_ID.jpg"
+  width={48}
+  height={48}
+  alt="Logo"
+  className="rounded-full"
+  style={{ aspectRatio: '48/48', objectFit: 'cover' }}
+/>
           <div>
             <h2 className="text-2xl font-bold">Contact Jakob Dahlin</h2>
             <p className="text-muted-foreground">No marketing</p>

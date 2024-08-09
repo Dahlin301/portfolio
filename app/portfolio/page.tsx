@@ -20,7 +20,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/residential1.jpg"
           alt="Image 1"
           width={300}
@@ -33,7 +33,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/residential2.jpg"
           alt="Image 2"
           width={300}
@@ -46,7 +46,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/residential3.jpg"
           alt="Image 3"
           width={300}
@@ -59,7 +59,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/residential4.jpg"
           alt="Image 4"
           width={300}
@@ -72,7 +72,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/residential5.jpg"
           alt="Image 5"
           width={300}
@@ -85,7 +85,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/residential6.jpg"
           alt="Image 6"
           width={300}
@@ -98,7 +98,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/residential7.jpg"
           alt="Image 7"
           width={300}
@@ -111,7 +111,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/residential8.jpg"
           alt="Image 8"
           width={300}
@@ -124,7 +124,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/residential9.jpg"
           alt="Image 9"
           width={300}
@@ -137,7 +137,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/residential10.jpg"
           alt="Image 10"
           width={300}
@@ -169,7 +169,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/commercial2.jpg"
           alt="Image 2"
           width={300}
@@ -182,7 +182,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/commercial3.jpg"
           alt="Image 3"
           width={300}
@@ -195,7 +195,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/commercial4.jpg"
           alt="Image 4"
           width={300}
@@ -208,7 +208,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/commercial5.jpg"
           alt="Image 5"
           width={300}
@@ -221,7 +221,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/commercial6.jpg"
           alt="Image 6"
           width={300}
@@ -234,7 +234,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/commercial7.jpg"
           alt="Image 7"
           width={300}
@@ -260,7 +260,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/commercial9.jpg"
           alt="Image 9"
           width={300}
@@ -273,7 +273,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/commercial10.jpg"
           alt="Image 10"
           width={300}

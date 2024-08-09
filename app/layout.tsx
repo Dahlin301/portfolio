@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils';
 import './globals.css';
 import React, { ReactNode } from "react";
 import Link from "next/link";
+import Image from 'next/image';
 
 const fontHeading = Inter({
   subsets: ['latin'],
@@ -34,7 +35,7 @@ export default function Layout({ children }: LayoutProps) {
       >
         <header className="flex items-center justify-between h-16 px-4 bg-background border-b md:px-6">
           <Link href="/" prefetch={false}>
-            <img
+            <Image
               src="/JD_ID.jpg"
               alt="JakobDahlin_Logo"
               width="40"

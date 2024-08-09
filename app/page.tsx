@@ -38,7 +38,7 @@ const Portfolio = () => {
                   </Link>
                 </div>
               </div>
-              <img
+              <Image
   src="/JD_COMMERCIAL1.jpg"
   width="300"
   height="200"
@@ -59,42 +59,42 @@ const Portfolio = () => {
     <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:gap-12">
       <div className="flex flex-col gap-2 min-h-full">
         <h3 className="text-lg font-bold">Commercial</h3>
-        <img src="/Commercial.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
+        <Image src="/Commercial.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
         <p className="text-muted-foreground">
           Capturing commercial buildings, office spaces, and retail to highlight their design and functionality.
         </p>
       </div>
       <div className="flex flex-col gap-2 min-h-full">
         <h3 className="text-lg font-bold">Residential</h3>
-        <img src="/Residential.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
+        <Image src="/Residential.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
         <p className="text-muted-foreground">
           Showcasing the architectural beauty, amenities and unique features of homes and residential complexes.
         </p>
       </div>
       <div className="flex flex-col gap-2 min-h-full">
         <h3 className="text-lg font-bold">Real Estate</h3>
-        <img src="/RealEstate.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
+        <Image src="/RealEstate.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
         <p className="text-muted-foreground">
           Bring out the aesthetic appeal and design elements of living spaces to boost sales.
         </p>
       </div>
       <div className="flex flex-col gap-2 min-h-full">
         <h3 className="text-lg font-bold">Hospitality</h3>
-        <img src="/Hospitality.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
+        <Image src="/Hospitality.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
         <p className="text-muted-foreground">
           Focusing on hospitality venues and hotels to showcase their ambiance and facilities.
         </p>
       </div>
       <div className="flex flex-col gap-2 min-h-full">
         <h3 className="text-lg font-bold">Construction</h3>
-        <img src="/Construction.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
+        <Image src="/Construction.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
         <p className="text-muted-foreground">
           Documenting the different stages of construction projects, from groundbreaking to completion.
         </p>
       </div>
       <div className="flex flex-col gap-2 min-h-full">
         <h3 className="text-lg font-bold">Archive</h3>
-        <img src="/Archive.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
+        <Image src="/Archive.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
         <p className="text-muted-foreground">
           Documenting the preservation and restoration of historical buildings and landmarks.
         </p>

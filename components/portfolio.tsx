@@ -103,7 +103,7 @@ const portfolio = () => {
               <div className="grid gap-2">
                 <h3 className="text-lg font-bold">Task Management</h3>
                 <p className="text-muted-foreground">
-                  Stay on top of your to-do's with our powerful task management tools.
+                  Stay on top of your to-do&apos;s with our powerful task management tools.
                 </p>
               </div>
               <div className="grid gap-2">

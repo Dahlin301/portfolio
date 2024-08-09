@@ -87,14 +87,14 @@ const Portfolio = () => {
       </div>
       <div className="flex flex-col gap-2 min-h-full">
         <h3 className="text-lg font-bold">Construction</h3>
-        <Image src="/Construction.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
+        <Image src="/Construction.JPG" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
         <p className="text-muted-foreground">
           Documenting the different stages of construction projects, from groundbreaking to completion.
         </p>
       </div>
       <div className="flex flex-col gap-2 min-h-full">
         <h3 className="text-lg font-bold">Archive</h3>
-        <Image src="/Archive.jpg" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
+        <Image src="/Archive.JPG" alt="Commercial" className="w-full h-[200px] object-cover rounded-lg" />
         <p className="text-muted-foreground">
           Documenting the preservation and restoration of historical buildings and landmarks.
         </p>

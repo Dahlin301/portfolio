@@ -87,39 +87,30 @@
   .card {
     @apply bg-white rounded-lg shadow-md p-6 m-4 border border-gray-300;
   }
-
   .card-header {
     @apply border-b pb-4 mb-4;
   }
-
   .card-title {
     @apply text-2xl font-bold;
   }
-
   .card-description {
     @apply text-gray-600;
   }
-
   .card-content {
     @apply py-4;
   }
-
   .card-footer {
     @apply border-t pt-4 mt-4 flex justify-end;
   }
-
   .input, .textarea {
     @apply border border-gray-300 rounded-md p-2 w-full;
   }
-
   .btn {
     @apply px-4 py-2 font-medium rounded-md;
   }
-
   .btn-primary {
     @apply bg-black text-white hover:bg-gray-800;
   }
-
   .btn-ghost {
     @apply bg-white text-black border border-gray-300 hover:bg-gray-100;
   }

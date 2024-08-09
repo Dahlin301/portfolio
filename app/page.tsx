@@ -54,7 +54,6 @@ const Portfolio = () => {
     <div className="flex flex-col items-center justify-center space-y-4 text-center">
       <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Services</h2>
       <p className="max-w-[700px] text-muted-foreground md:text-xl lg:text-base xl:text-xl">
-        Discover how our app can streamline your workflow and boost your productivity.
       </p>
     </div>
     <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:gap-12">

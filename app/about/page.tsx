@@ -27,7 +27,7 @@ const Portfolio = () => {
         <div className="space-y-4">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">Jakob Dahlin</h1>
           <p className="text-muted-foreground">
-            Welcome to the world of Jakob Dahlin, a renowned architectural photographer in New York City. With a distinguished portfolio that spans across continents, Jakob's work brings cities and their architecture to life through his lens.
+            Welcome to the world of Jakob Dahlin, a renowned architectural photographer in New York City. With a distinguished portfolio that spans across continents, Jakob&apos;s work brings cities and their architecture to life through his lens.
           </p>
         </div>
       </div>
@@ -35,13 +35,13 @@ const Portfolio = () => {
         <div>
           <h2 className="text-2xl font-bold tracking-tight">Renowned Architectural Photographer In New York City</h2>
           <p className="mt-4 text-muted-foreground">
-            Jakob's work on historical landmark buildings and brand new developments across New York City has earned him wide recognition. His mastery in capturing iconic buildings like the Woolworth Building, Empire State Building, The Textile Building, Starrett-Lehigh, and The News Building has been acclaimed not only in New York City but also in Los Angeles and Stockholm, Sweden.
+            Jakob&apos;s work on historical landmark buildings and brand new developments across New York City has earned him wide recognition. His mastery in capturing iconic buildings like the Woolworth Building, Empire State Building, The Textile Building, Starrett-Lehigh, and The News Building has been acclaimed not only in New York City but also in Los Angeles and Stockholm, Sweden.
           </p>
         </div>
         <div>
           <h2 className="text-2xl font-bold tracking-tight">Featured On Million Dollar Listing: New York</h2>
           <p className="mt-4 text-muted-foreground">
-            Jakob's talent as an architectural photographer in New York City gained spotlight after being featured on Million Dollar Listing: New York. Since then, he has collaborated with leading brands in the real estate industry, with his work appearing at global retailers like IKEA.
+            Jakob&apos;s talent as an architectural photographer in New York City gained spotlight after being featured on Million Dollar Listing: New York. Since then, he has collaborated with leading brands in the real estate industry, with his work appearing at global retailers like IKEA.
           </p>
         </div>
       </div>

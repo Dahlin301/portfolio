@@ -156,7 +156,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/commercial1.jpg"
           alt="Image 1"
           width={300}
@@ -247,7 +247,7 @@ const Portfolio = () => {
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
-        <img
+        <Image
           src="/commercial8.jpg"
           alt="Image 8"
           width={300}

@@ -17,7 +17,7 @@ const Portfolio = () => {
                 Architectural Photographer Jakob Dahlin
                 </h1>
                 <p className="max-w-[600px] mx-auto text-muted-foreground md:text-xl">
-                  Highlighting the beauty, history, and new developments of New York's buildings and structures.
+                  Highlighting the beauty, history, and new developments of New York&apos;s buildings and structures.
                   </p>
                   </div>
 

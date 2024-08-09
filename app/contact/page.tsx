@@ -1,8 +1,3 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/RjGf1HyfQFu
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 "use client";
 
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"
@@ -12,31 +7,47 @@ import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import Image from "next/image";
 
-export default function ContactPage() {
+
+const ContactPage = () => {
   return (
-    <div className="flex justify-center items-center h-screen bg-background">
-      <Card className="w-full max-w-md p-6 space-y-4 md:max-w-lg lg:max-w-xl">
-        <div className="flex items-center gap-4">
+<div className="min-h-screen flex flex-col">
+  <main className="flex-1 flex flex-col items-center justify-start px0 mt-0 md:mt-6">
+    <section className="text-center py-1 mb-14 justify-center">
+    </section>
+
+    <div className="container justify-center mx-auto max-w-[500px] px-4 py-4 md:px-6 lg:py-8">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 justify-center">
+        <div className="flex justify-center">
         <Image
   src="/JD_ID.jpg"
-  width={48}
-  height={48}
-  alt="Logo"
-  className="rounded-full"
-  style={{ aspectRatio: '48/48', objectFit: 'cover' }}
+  alt="Profile Picture"
+  width={300}
+  height={300}
+  className="aspect-square rounded-full object-cover justify-center"
 />
-          <div>
-            <h2 className="text-2xl font-bold">Contact Jakob Dahlin</h2>
-            <p className="text-muted-foreground">No marketing</p>
-          </div>
         </div>
-        <a
-          href="mailto:someone@example.com?subject=Contact%20Jakob%20Dahlin&body=Hello%20Jakob,"
-          className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-        >
-          Send
-        </a>
-      </Card>
+        <div className="space-y-4 justify-center">
+          <h1 className="text-3xl font-bold justify-center tracking-tight sm:text-4xl">Contact Jakob Dahlin</h1>
+          <p className="text-muted-foreground justify-center">No promotional emails.</p>
+          <a
+            href="mailto:jakob@jakobdahlin.com?subject=Contact%20Jakob%20Dahlin&body=Hi%20Jakob,"
+            className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+          >
+            Email
+          </a>
+        </div>
+      </div>
+      <div className="mt-8 space-y-8">
+        <div>
+        </div>
+        <div>
+        </div>
+      </div>
     </div>
+  </main>
+</div>
+
   );
 }
+
+export default ContactPage;

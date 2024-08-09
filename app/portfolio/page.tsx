@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 
 const Portfolio = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col pb-8">
       <main className="flex-1 flex flex-col items-center justify-center px0 mt-8 md:mt-12">
         <section className="text-center py-1 mb-14">
         </section>
@@ -148,11 +148,11 @@ const Portfolio = () => {
       </div>
     </div>
 
-    <p className="text-md font-bold tracking-tighter sm:text-3xl xl:text-4xl/none flex-1 flex flex-col items-center justify-center px0 mt-8 md:mt-12">
-                    Commercial
-                  </p>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 p-4 max-w-[1100px]">
-      <div className="relative group overflow-hidden rounded-lg">
+    <p className="text-md font-bold tracking-tighter sm:text-3xl xl:text-4xl/none mt-4 md:mt-6">
+  Commercial
+</p>
+<div className="grid grid-cols-2 md:grid-cols-5 gap-4 p-4 max-w-[1100px]">
+  <div className="relative group overflow-hidden rounded-lg">
         <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
           <span className="sr-only">View</span>
         </Link>
